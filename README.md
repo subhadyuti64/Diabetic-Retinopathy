@@ -1,5 +1,7 @@
 # 🩺 Diabetic Retinopathy Diagnostic App
 
+Working Video: https://youtu.be/4v6xZ4nACDc
+
 A Streamlit-based AI-powered diagnostic tool that:
 - Classifies retinal fundus images using a fine-tuned vision transformer (ViT)
 - Uses Google's Gemini (via LangChain) to generate detailed, patient-friendly medical reports
@@ -66,3 +68,4 @@ echo "GOOGLE_APPLICATION_CREDENTIALS=/full/path/to/your/credentials.json" >> .en
 
 # 6. Run the app
 streamlit run test.py
+
