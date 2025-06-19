@@ -62,5 +62,7 @@ pip install -r requirements.txt
 echo "GOOGLE_API_KEY=your_api_key_here" >> .env
 echo "GOOGLE_APPLICATION_CREDENTIALS=/full/path/to/your/credentials.json" >> .env
 
-# 5. Run the app
+# 5. Run the main.ipynb file to get the model.pth and processor.pth
+
+# 6. Run the app
 streamlit run test.py
